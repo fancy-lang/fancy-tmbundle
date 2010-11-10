@@ -1,6 +1,5 @@
 The Fancy Programming Language Textmate Bundle
 (C) 2010 Jose Narvaez <goyox86@gmail.com>
-------------------------
 
 This is the official Fancy http://www.fancy-lang.org programming language Textmate bundle.
 
