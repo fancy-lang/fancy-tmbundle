@@ -190,11 +190,25 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>These are just normal methos as almost everything in Fancy, but they should look different</string>
+			<string>Control messages are treated as different messages, but they are implemented as regular messages as everything in Fancy</string>
 			<key>match</key>
-			<string>\b(class|else|if|if_do|if_false|if_nil|if_true|loop|return|unless|until|while_true)\b:?</string>
+			<string>\b(class|else|if|if_do|if_false|if_nil|if_true|loop|return|unless|until|while_true|while_true)\b:?</string>
 			<key>name</key>
 			<string>keyword.control.fancy</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.fancy</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>([a-z_]\w*:)</string>
+			<key>name</key>
+			<string>meta.message.fancy</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -379,7 +393,7 @@
 			<key>match</key>
 			<string>\b(0[xX]\h(?&gt;_?\h)*|\d(?&gt;_?\d)*(\.(?![^[:space:][:digit:]])(?&gt;_?\d)*)?([eE][-+]?\d(?&gt;_?\d)*)?|0[bB][01]+)\b</string>
 			<key>name</key>
-			<string>constant.numeric.ruby</string>
+			<string>constant.numeric.fancy</string>
 		</dict>
 	</array>
 	<key>repository</key>
