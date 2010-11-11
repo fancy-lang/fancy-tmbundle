@@ -192,7 +192,7 @@
 			<key>comment</key>
 			<string>Control messages are treated as different messages, but they are implemented as regular messages as everything in Fancy</string>
 			<key>match</key>
-			<string>\b(class|else|if|if_do|if_false|if_nil|if_true|loop|return|unless|until|while_true|while_true)\b:?</string>
+			<string>\b(class|else|if|if_do|if_false|if_nil|if_true|loop|return|unless|until|while_do|while_false|while_nil|while_true)\b:?</string>
 			<key>name</key>
 			<string>keyword.control.fancy</string>
 		</dict>
