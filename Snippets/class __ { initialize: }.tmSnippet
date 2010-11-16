@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ClassName} {
+	def initialize {
+		$2
+	}
+}
+</string>
+	<key>name</key>
+	<string>class .. { initialize }</string>
+	<key>tabTrigger</key>
+	<string>cla</string>
+	<key>uuid</key>
+	<string>F1CFC68F-DD09-4123-84EE-DBEE4E1871E0</string>
+</dict>
+</plist>

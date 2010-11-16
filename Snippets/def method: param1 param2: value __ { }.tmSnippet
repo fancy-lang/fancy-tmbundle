@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:method_name}: ${2:value1} ${3:param2}: ${4:value2} {
+	$0
+}</string>
+	<key>name</key>
+	<string>def method: param1 param2: value .. { }</string>
+	<key>tabTrigger</key>
+	<string>def</string>
+	<key>uuid</key>
+	<string>A733D035-0D78-4C59-B90F-777659AC909E</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>read_write_slots: ['${1:slotname}]</string>
+	<key>name</key>
+	<string>read_write_slots: [ ]</string>
+	<key>tabTrigger</key>
+	<string>rw</string>
+	<key>uuid</key>
+	<string>14BAD77D-BFDA-4005-88AE-1F505B3F8A03</string>
+</dict>
+</plist>
