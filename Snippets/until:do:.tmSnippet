@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if_do: |$1| {
+	<string>until: {$1} do: {
 	$0
-}
-
-</string>
+}</string>
 	<key>name</key>
-	<string>if_do: | | .. { }</string>
+	<string>until:do:</string>
 	<key>tabTrigger</key>
-	<string>if</string>
+	<string>until</string>
 	<key>uuid</key>
-	<string>075A8918-FAFF-432A-8F48-128F7ABE1653</string>
+	<string>C70C375B-EF48-4D4F-BE68-9448EF8B46CA</string>
 </dict>
 </plist>

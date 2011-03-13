@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>match ${1:obj} -&gt; {
+	<string>match ${1:obj} {
 	$2
 }</string>
 	<key>name</key>

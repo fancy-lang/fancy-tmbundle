@@ -12,7 +12,7 @@
 	<key>name</key>
 	<string>class : ParentClass .. { initialize }</string>
 	<key>tabTrigger</key>
-	<string>cla</string>
+	<string>class</string>
 	<key>uuid</key>
 	<string>E30F9F1D-2CC2-4D54-99DA-80E1A63DBE6B</string>
 </dict>
