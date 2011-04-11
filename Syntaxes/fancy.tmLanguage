@@ -236,7 +236,7 @@
 			<key>comment</key>
 			<string>Symbol literals</string>
 			<key>match</key>
-			<string>'[a-z\w*:_]+</string>
+			<string>'([^'\s\[\]\(\)\{\}]+|\[\])</string>
 			<key>name</key>
 			<string>constant.other.symbol.fancy</string>
 		</dict>
