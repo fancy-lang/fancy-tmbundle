@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>fy</string>
+		<string>fancypack</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^#!/.*\bfancy\b</string>
