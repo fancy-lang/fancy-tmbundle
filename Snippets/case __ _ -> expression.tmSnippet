@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>scope</key>
+  <string>source.fancy</string>
 	<key>content</key>
 	<string>case ${1:_} -&gt; ${2:expression}</string>
 	<key>name</key>

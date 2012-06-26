@@ -6,6 +6,7 @@
 	<array>
 		<string>fy</string>
 		<string>fancypack</string>
+		<string>Fakefile</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^#!/.*\bfancy\b</string>
@@ -56,9 +57,9 @@
 		<dict>
 			<key>begin</key>
 			<string>(?x)
-        	    (?=def\b)                                                        # an optimization to help Oniguruma fail fast
-        		(?&lt;=^|\s)(def)\s+                                               # the def keyword                     
-        		(self)\s+                                                       # a method definition prefix in this case self          
+        	    (?=def\b)                                                     # an optimization to help Oniguruma fail fast
+        		(?&lt;=^|\s)(def)\s+																						# the def keyword
+        		(self)\s+                                                       # a method definition prefix in this case self
         		(([a-z]?\w+[?!]?:?)
         		|===|&gt;[&gt;=]?|&lt;=&gt;|&lt;[&lt;=]?|[%&amp;`/\|]|\*\*?|=?~|[-+]@?|\[\]|=\?)\s+       # the method name
         	    </string>
@@ -101,9 +102,9 @@
 		<dict>
 			<key>begin</key>
 			<string>(?x)
-    			    (?=def\b)                                                   # an optimization to help Oniguruma fail fast
-    			    (?&lt;=^|\s)(def)\s+                                           # the def keyword                     
-    			    (((?&gt;[A-Z_]\w*(?&gt;\s+))?)+)                                  # a method definition prefix           
+    			    (?=def\b)																			# an optimization to help Oniguruma fail fast
+    			    (?&lt;=^|\s)(def)\s+                          # the def keyword
+    			    (((?&gt;[A-Z_]\w*(?&gt;\s+))?)+)              # a method definition prefix
     			    (([a-z]?\w+[?!]?:?)
     			    |===|&gt;[&gt;=]?|&lt;=&gt;|&lt;[&lt;=]?|[%&amp;`/\|]|\*\*?|=?~|[-+]@?|\[\]|=\?)\s+   # the method name
     			    </string>
