@@ -1,16 +1,12 @@
 The Fancy Programming Language Textmate Bundle
-(C) 2010 Jose Narvaez <goyox86@gmail.com>
+(C) 2010, Jose Narvaez <goyox86@gmail.com>,
+    2011, 2012, Christopher Bertels <chris@fancy-lang.org>
 
 This is the official Fancy http://www.fancy-lang.org programming language Textmate bundle.
 
-What's already working?
-------------------------
-
-By now, we have only syntax highlighting. More work (Snippets, Commands) comming soon :).
-
 How to Install (Git is required)
 ------------------------
-		
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/fancy-lang/fancy-tmbundle.git "Fancy.tmbundle"
