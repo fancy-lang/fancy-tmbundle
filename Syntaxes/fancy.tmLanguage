@@ -243,6 +243,22 @@
       <string>constant.other.symbol.fancy</string>
     </dict>
     <dict>
+      <key>captures</key>
+      <dict>
+        <key>0</key>
+        <dict>
+          <key>name</key>
+          <string>punctuation.definition.constant.fancy</string>
+        </dict>
+      </dict>
+      <key>comment</key>
+      <string>Dynamic variable literals</string>
+      <key>match</key>
+      <string>\*[a-zA-Z0-9_-]+\*</string>
+      <key>name</key>
+      <string>constant.other.dynvar.fancy</string>
+    </dict>
+    <dict>
       <key>comment</key>
       <string>Pseudo variables</string>
       <key>match</key>
