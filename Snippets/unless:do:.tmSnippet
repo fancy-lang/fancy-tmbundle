@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>scope</key>
+  <string>source.fancy</string>
+  <key>content</key>
+  <string>unless: ${1:expression} do: {
+  $0
+}</string>
+  <key>name</key>
+  <string>unless: expression do: { body } </string>
+  <key>tabTrigger</key>
+  <string>unless</string>
+</dict>
+</plist>
