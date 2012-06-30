@@ -192,9 +192,9 @@
     </dict>
     <dict>
       <key>comment</key>
-      <string>Control messages are treated as different messages, but they are implemented as regular messages as everything in Fancy</string>
+      <string>Control flow keywords that aren't regular messages.</string>
       <key>match</key>
-      <string>\b(else|if|if_do|if_false|if_nil|if_true|loop|return|unless|until|while_do|while_false|while_nil|while_true)\b:?</string>
+      <string>\b(return|return_local|try|catch|finally|retry)\b:?</string>
       <key>name</key>
       <string>keyword.control.fancy</string>
     </dict>
@@ -211,14 +211,6 @@
       <string>([a-z_]\w*[?!]?:)</string>
       <key>name</key>
       <string>meta.message.fancy</string>
-    </dict>
-    <dict>
-      <key>comment</key>
-      <string>Everything being a method but having a special function is a..</string>
-      <key>match</key>
-      <string>\b(initialize|new|raise|read_slots|write_slots|read_write_slots|catch|private|public|protected)\b([?!:])?</string>
-      <key>name</key>
-      <string>keyword.other.special-method.fancy</string>
     </dict>
     <dict>
       <key>match</key>
