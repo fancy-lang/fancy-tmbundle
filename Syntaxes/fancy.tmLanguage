@@ -194,7 +194,7 @@
       <key>comment</key>
       <string>Control flow keywords that aren't regular messages.</string>
       <key>match</key>
-      <string>\b(return|return_local|try|catch|finally|retry)\b:?</string>
+      <string>\b(return|return_local|match|case|try|catch|finally|retry)\b:?</string>
       <key>name</key>
       <string>keyword.control.fancy</string>
     </dict>
