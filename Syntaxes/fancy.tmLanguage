@@ -104,7 +104,7 @@
       <string>(?x)
               (?=def\b)                                     # an optimization to help Oniguruma fail fast
               (?&lt;=^|\s)(def)\s+                          # the def keyword
-              (((?&gt;[A-Z_]\w*(?&gt;\s+))?)+)              # a method definition prefix
+              (((?&gt;[A-Z_-]\w*(?&gt;\s+))?)+)              # a method definition prefix
               (([a-z]?\w+[?!]?:?)
               |===|&gt;[&gt;=]?|&lt;=&gt;|&lt;[&lt;=]?|[%&amp;`/\|]|\*\*?|=?~|[-+]@?|\[\]|=\?)\s+   # the method name
               </string>
@@ -208,7 +208,7 @@
         </dict>
       </dict>
       <key>match</key>
-      <string>([a-z_]\w*[?!]?:)</string>
+      <string>([a-z_-]\w*[?!]?:)</string>
       <key>name</key>
       <string>meta.message.fancy</string>
     </dict>
@@ -254,9 +254,9 @@
       <key>comment</key>
       <string>Pseudo variables</string>
       <key>match</key>
-      <string>\b(__(FILE|LINE)__|self)\b(?![?!])</string>
+      <string>\b(__(FILE|LINE)__|self|super)\b(?![?!])</string>
       <key>name</key>
-      <string>variable.language.fancy</string>
+      <string>constant.language.fancy</string>
     </dict>
     <dict>
       <key>comment</key>
@@ -411,7 +411,7 @@
     <key>arg_name</key>
     <dict>
       <key>match</key>
-      <string>([a-z_]\w*:)</string>
+      <string>([a-z_-]\w*:)</string>
       <key>name</key>
       <string>entity.name.function.fancy</string>
     </dict>
