@@ -50,7 +50,7 @@
         </dict>
       </dict>
       <key>match</key>
-      <string>^\s*(class)\s+(([.a-zA-Z0-9_:]+(\s*(:)\s*[.a-zA-Z0-9_:]+)?))</string>
+      <string>^\s*(class)\s+(([.a-zA-Z0-9_:]+(\s*(:)\s*[.a-zA-Z0-9_:\s]+)?))</string>
       <key>name</key>
       <string>meta.class.fancy</string>
     </dict>
