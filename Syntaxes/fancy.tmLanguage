@@ -315,6 +315,22 @@
       <string>punctuation.section.hash.fancy</string>
     </dict>
     <dict>
+      <key>captures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>string.regexp.classic.fancy</string>
+        </dict>
+      </dict>
+      <key>comment</key>
+      <string>Regexp literals</string>
+      <key>match</key>
+      <string>(/[^/]*/)</string>
+      <key>name</key>
+      <string>string.regexp.classic.fancy</string>
+    </dict>
+    <dict>
       <key>comment</key>
       <string>Assingnment operators</string>
       <key>match</key>
